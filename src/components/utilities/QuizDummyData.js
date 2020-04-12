@@ -1,130 +1,130 @@
 export let quizQuestions = [
     {
-      question: "What franchise would you rather play a game from?",
-      answerindex : 1,
-      answers: [
-        {
-          type: "IBM",
-          content: "Halo",
-          answer : false
-        },
-        {
-          type: "amdocs",
-          content: "Pokemon",
-          answer : false
-        },
-        {
-          type: "Sony2",
-          content: "Uncharted1",
-          answer : false
-        },
-        {
-          type: "Sony1",
-          content: "Uncharted2",
-          answer : false
-        }
-      ]
-    },
-    {
-      question: "Which console would you prefer to play with friends?",
+      question: "print type(type(int))",
       answerindex : 2,
       answers: [
         {
-          type: "IBM",
-          content: "X-Box",
+          type: "type 'int'",
+          content: "type 'int'",
           answer : false
         },
         {
-          type: "amdocs",
-          content: "amdocs 64",
+          type: "type 'type'",
+          content: "type 'type'",
           answer : false
         },
         {
-          type: "Sony",
-          content: "Playstation 100",
+          type: "Error",
+          content: "Error",
           answer : false
         },
         {
-          type: "Sonyq",
-          content: "Playstation 1",
+          type: "0",
+          content: "0",
           answer : false
         }
       ]
     },
     {
-      question: "Which of these racing franchises would you prefer to play a game from?",
-      answerindex : 3,
+      question: "y = 8; z = lambda x : x * y; print z(6)",
+      answerindex : 1,
       answers: [
         {
-          type: "IBM",
-          content: "Forza",
+          type: "48",
+          content: "48",
           answer : false
         },
         {
-          type: "amdocs",
-          content: "Mario Kart",
+          type: "14",
+          content: "14",
           answer : false
         },
         {
-          type: "Sony",
-          content: "Gran Turismo",
+          type: "64",
+          content: "64",
           answer : false
         },
         {
-          type: "Sonyw",
-          content: "Playstation 1qq",
+          type: "None of the above",
+          content: "None of the above",
           answer : false
         }
       ]
     },
     {
-      question: "Which of these games do you think is best?",
+      question: "What is called when a function is defined inside a class?",
       answerindex : 4,
       answers: [
         {
-          type: "IBM",
-          content: "BioShock",
+          type: "Module",
+          content: "Module",
           answer : false
         },
         {
-          type: "amdocs",
-          content: "The Legend of Zelda: Ocarina of Time",
+          type: "Class",
+          content: "Class",
           answer : false
         },
         {
-          type: "Sony",
-          content: "Final Fantasy VII",
+          type: "Another Function",
+          content: "Another Function",
           answer : false
         },
         {
-          type: "Sonyr",
-          content: "Playstation 1",
+          type: "Method",
+          content: "Method",
           answer : false
         }
       ]
     },
     {
-      question: "What console would you prefer to own?",
-      answerindex : 5,
+      question: "Which of the following is the use of id() function in python?",
+      answerindex : 1,
       answers: [
         {
-          type: "IBM",
-          content: "X-Box One",
+          type: "Id returns the identity of the object",
+          content: "Id returns the identity of the object",
           answer : false
         },
         {
-          type: "amdocs",
-          content: "Wii U",
+          type: "Every object doesn’t have a unique id",
+          content: "Every object doesn’t have a unique id",
           answer : false
         },
         {
-          type: "Sony",
-          content: "Playstation 4",
+          type: "All of the mentioned",
+          content: "All of the mentioned",
           answer : false
         },
         {
-          type: "Sonyqqå",
-          content: "Playstation11 1",
+          type: "None of the mentioned",
+          content: "None of the mentioned",
+          answer : false
+        }
+      ]
+    },
+    {
+      question: "Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after list1.pop(1)?",
+      answerindex : 3,
+      answers: [
+        {
+          type: "[3, 4, 5, 20, 5, 25, 1, 3]",
+          content: "[3, 4, 5, 20, 5, 25, 1, 3]",
+          answer : false
+        },
+        {
+          type: "[1, 3, 3, 4, 5, 5, 20, 25]",
+          content: "[1, 3, 3, 4, 5, 5, 20, 25]",
+          answer : false
+        },
+        {
+          type: "[3, 5, 20, 5, 25, 1, 3]",
+          content: "[3, 5, 20, 5, 25, 1, 3]",
+          answer : false
+        },
+        {
+          type: "[1, 3, 4, 5, 20, 5, 25]",
+          content: "[1, 3, 4, 5, 20, 5, 25]",
           answer : false
         }
       ]
